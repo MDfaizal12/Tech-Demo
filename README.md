@@ -31,4 +31,13 @@ This repository tracks my hands-on journey learning Python **from absolute scrat
 ## 🗺️ Architectural Milestones
 
 ### Phase 1: Core Engine & Deterministic Logic
-- [ ] Primitive Data Types, Memory Layout, and Control Flow
+- [x] Syntax, Variables, Data Types & Basic I/O
+- [x] Typecasting, Memory Identification & Variable Management
+- [x] Core Data Structures & Mutability (Lists, Tuples, Dictionaries)
+- [x] Conditional Branching & Iterative Control Flow (Loops)
+- [x] Algorithmic Practice & Problem Solving
+- [x] Modular Programming & User-Defined Functions
+- [x] String Processing, Formatting & Text Algorithms
+- [x] Nested Data Modeling & Dictionary Operations
+- [x] Standard Built-in Utilities & Mathematical Computation
+- [x] Functional Programming, Iterators & Memory Generators
