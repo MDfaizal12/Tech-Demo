@@ -29,15 +29,58 @@ This repository tracks my hands-on journey learning Python **from absolute scrat
 ---
 
 ## 🗺️ Architectural Milestones
+  
+## ***⚡ Phase 1: Core Engine & Deterministic Logic*** 
+Establishing the core algorithmic and data structures pipeline.
 
-### Phase 1: Core Engine & Deterministic Logic
-- [x] Syntax, Variables, Data Types & Basic I/O
-- [x] Typecasting, Memory Identification & Variable Management
-- [x] Core Data Structures & Mutability (Lists, Tuples, Dictionaries)
-- [x] Conditional Branching & Iterative Control Flow (Loops)
-- [x] Algorithmic Practice & Problem Solving
-- [x] Modular Programming & User-Defined Functions
-- [x] String Processing, Formatting & Text Algorithms
-- [x] Nested Data Modeling & Dictionary Operations
-- [x] Standard Built-in Utilities & Mathematical Computation
-- [x] Functional Programming, Iterators & Memory Generators
+🎮 Day 01 ── [x] Syntax, Variables, Data Types & Basic I/O ── 📦
+
+⚙️ Day 02 ── [x] Typecasting, Memory Identification & Variable Management ── 🧠
+
+⛓️ Day 03 ── [x] Core Data Structures & Mutability (Lists, Tuples, Dictionaries) ── 🏗️
+
+🔄 Day 04 ── [x] Conditional Branching & Iterative Control Flow (Loops) ── 🔁
+
+🧩 Day 05 ── [x] Algorithmic Practice & Problem Solving ── 🎯
+
+📦 Day 06 ── [x] Modular Programming & User-Defined Functions ── 🔌
+
+📝 Day 07 ── [x] String Processing, Formatting & Text Algorithms ── 🔠
+
+📂 Day 08 ── [x] Nested Data Modeling & Dictionary Operations ── 🗺️
+
+🧮 Day 09 ── [x] Standard Built-in Utilities & Mathematical Computation ── 🔢
+
+🏭 Day 10 ── [x] Functional Programming, Iterators & Memory Generators ── 🌊
+
+## ***🛡️ Phase 2: System Integration, Defensive Programming & OOP*** 
+Connecting to the OS, handling files, making API calls, and building objects.
+
+🚨 Day 11 ── [x] Defensive Programming & Exception Handling ── 🪓
+
+🔍 Day 12 ── [x] Pattern Extraction & Regular Expressions (RegEx) ── 🕸️
+
+💾 Day 13 ── [x] File Handling & Stream Processing ── 📥
+
+📂 Day 14 ── [x] OS Interaction & File System Operations ── 💻
+
+📡 Day 15 ── [x] Ingestion & Parsing (JSON, HTTP Requests, CSV) ── 🌐
+
+🏗️ Day 16 ── [x] Object-Oriented Foundations & Lifecycle (self, init, del) ── 🧬
+
+🏢 Day 17 ── [x] Advanced OOP Pillars & Design Contracts (Polymorphism, ABC) ── 🏰
+
+## ***📊 Phase 3: Data Engineering, Vectorization & Visual Analytics*** 
+In-memory big-data processing, mathematical frameworks, and dashboard rendering.
+
+🐼 Day 18 ── [x] Tabular Data Structures & Indexing (Pandas Series & DataFrames) ── 🔢
+
+🧹 Day 19 ── [x] Data Wrangling, Aggregation & Cleansing (dropna, fillna, pivots) ── 🧺
+
+🔢 Day 20 ── [x] Numerical Computing & Vectorization (NumPy Multi-D Arrays) ── 🏎️
+
+📉 Day 21 ── [x] Statistical Visualizations & Plotting Foundations (Matplotlib Essentials) ── 🎨
+
+🖼️ Day 22 ── [x] Object-Oriented Visual Dashboards & Multi-View Subplots (Matplotlib OO API) ── 🖥️
+
+  🎉 STATUS: ALL MILESTONES GOING WELL GIVING A BETTER TRY
