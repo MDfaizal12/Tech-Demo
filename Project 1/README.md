@@ -7,21 +7,24 @@ A modular, production-grade Python data pipeline that discovers raw multi-curren
 
 The system processes financial records through a four-stage pipeline:
 
+
+```
 data/raw/**/*.csv  ──►  Recursive File Discovery & Stream Ingestion (os.walk, yield)
-                                   │
-                                   ▼
-                        Text Cleaning & Tag Isolation (re)
-                                   │
-                                   ▼
-                    Real-Time Currency Normalization (requests)
-                                   │
-                                   ▼
-               Polymorphic Account Processing (ABC, Encapsulation)
-                                   │
-         ┌─────────────────────────┼─────────────────────────┐
-         ▼                         ▼                         ▼
+                                   │                                   
+                                   ▼                                            
+                    Text Cleaning & Tag Isolation (re)                        
+                                   │                                  
+                                   ▼                                  
+                 Real-Time Currency Normalization (requests)                    
+                                   │                                   
+                                   ▼                                     
+            Polymorphic Account Processing (ABC, Encapsulation)               
+                                   │                                   
+         ┌─────────────────────────┼─────────────────────────┐         
+         ▼                         ▼                         ▼    
 data/reports/*.json       data/reports/*.csv        data/reports/*.png
  (Structured Summary)      (Flat Ledger Table)      (Visual Analytics)
+```
 
 
 
@@ -36,6 +39,7 @@ data/reports/*.json       data/reports/*.csv        data/reports/*.png
 
 
 financial_ledger/
+```
 ├── data/
 │   ├── raw/
 │   │   ├── 2025/
@@ -56,8 +60,6 @@ financial_ledger/
 
 ```
 
----
-
 ## Prerequisites & Installation
 
 * Python 3.10 or higher
@@ -65,46 +67,32 @@ financial_ledger/
 
 ### 1. Clone the Repository
 
-
 git clone https://github.com/your-username/financial-ledger.git
 cd financial-ledger
 
-```
-
 ### 2. Set Up a Virtual Environment
 
-
-# Windows
+#### Windows
 python -m venv .venv
 .venv\Scripts\activate
 
-# macOS / Linux
+#### macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-```
-
 ### 3. Install Dependencies
 
-
 pip install -r requirements.txt
-
-```
-
----
 
 ## Usage
 
 Place raw `.csv` transaction files inside any subfolder under `data/raw/`, then execute the pipeline:
 
-
 python main.py
-
-```
 
 ### Expected Terminal Output
 
-
+```
 [*] Initializing Currency Converter...
 [*] Bootstrapping account registries...
 [*] Discovered 2 transaction files. Ingesting records...
@@ -140,10 +128,6 @@ Executing the pipeline creates three files in `data/reports/`:
 * **`financial_dashboard.png`**: Matplotlib visualization showing:
 * Account balance comparison bar chart.
 * Cash inflow versus outflow distribution donut chart.
-
-
-
----
 
 ## Core Engineering Concepts Demonstrated
 
