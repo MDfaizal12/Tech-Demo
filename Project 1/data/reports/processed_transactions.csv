@@ -1,0 +1,16 @@
+txn_id,account_id,account_type,amount,currency,base_amount_usd,description,reference_tag,reference_tags,source_file,source_line
+TXN-25041,SAV-1001,savings,3980.0,USD,3980.0,Quarterly salary payment,SAL-01,['SAL-01'],data\raw\2025\q4_txns.csv,2
+TXN-25042,SAV-1001,savings,-74.3,USD,-74.3,Weekly groceries,GROC-12,['GROC-12'],data\raw\2025\q4_txns.csv,3
+TXN-25043,CORP-2001,corporate,9800.0,USD,9800.0,Client project payment,REV-03,['REV-03'],data\raw\2025\q4_txns.csv,4
+TXN-25044,CORP-2001,corporate,-2350.0,EUR,-2635.56,Cloud infrastructure invoice,INFRA-99,['INFRA-99'],data\raw\2025\q4_txns.csv,5
+TXN-25045,CORP-2001,corporate,-289.99,USD,-289.99,Annual security software,SOFT-22,['SOFT-22'],data\raw\2025\q4_txns.csv,6
+TXN-25046,SAV-1002,savings,1425.0,GBP,1889.79,Independent consulting payment,CONS-04,['CONS-04'],data\raw\2025\q4_txns.csv,7
+TXN-25047,SAV-1002,savings,-96.8,CAD,-68.21,Travel and transit costs,TRAVEL-15,['TRAVEL-15'],data\raw\2025\q4_txns.csv,8
+TXN-26001,SAV-1001,savings,4250.0,USD,4250.0,Quarterly salary payment,SAL-01,['SAL-01'],data\raw\2026\q1_txns.csv,2
+TXN-26002,SAV-1001,savings,-86.45,USD,-86.45,Weekly groceries,GROC-12,['GROC-12'],data\raw\2026\q1_txns.csv,3
+TXN-26003,SAV-1001,savings,-42.18,EUR,-47.31,Cloud storage subscription,INFRA-99,['INFRA-99'],data\raw\2026\q1_txns.csv,4
+TXN-26004,CORP-2001,corporate,-1875.0,USD,-1875.0,Cloud hosting invoice,INFRA-99,['INFRA-99'],data\raw\2026\q1_txns.csv,5
+TXN-26005,CORP-2001,corporate,12500.0,USD,12500.0,Client milestone payment,REV-03,['REV-03'],data\raw\2026\q1_txns.csv,6
+TXN-26006,CORP-2001,corporate,-640.0,GBP,-848.75,Developer tools and licenses,SOFT-22,['SOFT-22'],data\raw\2026\q1_txns.csv,7
+TXN-26007,SAV-1002,savings,1850.0,CAD,1303.6,Quarterly consulting income,CONS-04,['CONS-04'],data\raw\2026\q1_txns.csv,8
+TXN-26008,SAV-1002,savings,-113.72,USD,-113.72,Office and household supplies,SUP-08,['SUP-08'],data\raw\2026\q1_txns.csv,9

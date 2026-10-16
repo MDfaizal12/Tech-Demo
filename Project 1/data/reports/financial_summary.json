@@ -1,0 +1,290 @@
+{
+  "report_title": "Project 3: Automated Financial Ledger & Currency Converter",
+  "base_currency": "USD",
+  "transaction_count": 15,
+  "source_files": [
+    "data\\raw\\2025\\q4_txns.csv",
+    "data\\raw\\2026\\q1_txns.csv"
+  ],
+  "totals": {
+    "inflows_usd": 33723.39,
+    "outflows_usd": 6039.29,
+    "net_cash_flow_usd": 27684.1
+  },
+  "accounts": [
+    {
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "balance_usd": 16650.7,
+      "statement_fees_usd": 25.0
+    },
+    {
+      "account_id": "SAV-1001",
+      "account_type": "savings",
+      "balance_usd": 8021.94,
+      "statement_fees_usd": 0.0
+    },
+    {
+      "account_id": "SAV-1002",
+      "account_type": "savings",
+      "balance_usd": 3011.46,
+      "statement_fees_usd": 0.0
+    }
+  ],
+  "top_3_expenses": [
+    {
+      "txn_id": "TXN-25044",
+      "account_id": "CORP-2001",
+      "amount_usd": 2635.56,
+      "description": "Cloud infrastructure invoice",
+      "reference_tags": [
+        "INFRA-99"
+      ]
+    },
+    {
+      "txn_id": "TXN-26004",
+      "account_id": "CORP-2001",
+      "amount_usd": 1875.0,
+      "description": "Cloud hosting invoice",
+      "reference_tags": [
+        "INFRA-99"
+      ]
+    },
+    {
+      "txn_id": "TXN-26006",
+      "account_id": "CORP-2001",
+      "amount_usd": 848.75,
+      "description": "Developer tools and licenses",
+      "reference_tags": [
+        "SOFT-22"
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "txn_id": "TXN-25041",
+      "account_id": "SAV-1001",
+      "account_type": "savings",
+      "amount": 3980.0,
+      "currency": "USD",
+      "base_amount_usd": 3980.0,
+      "description": "Quarterly salary payment",
+      "reference_tag": "SAL-01",
+      "reference_tags": [
+        "SAL-01"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 2
+    },
+    {
+      "txn_id": "TXN-25042",
+      "account_id": "SAV-1001",
+      "account_type": "savings",
+      "amount": -74.3,
+      "currency": "USD",
+      "base_amount_usd": -74.3,
+      "description": "Weekly groceries",
+      "reference_tag": "GROC-12",
+      "reference_tags": [
+        "GROC-12"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 3
+    },
+    {
+      "txn_id": "TXN-25043",
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "amount": 9800.0,
+      "currency": "USD",
+      "base_amount_usd": 9800.0,
+      "description": "Client project payment",
+      "reference_tag": "REV-03",
+      "reference_tags": [
+        "REV-03"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 4
+    },
+    {
+      "txn_id": "TXN-25044",
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "amount": -2350.0,
+      "currency": "EUR",
+      "base_amount_usd": -2635.56,
+      "description": "Cloud infrastructure invoice",
+      "reference_tag": "INFRA-99",
+      "reference_tags": [
+        "INFRA-99"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 5
+    },
+    {
+      "txn_id": "TXN-25045",
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "amount": -289.99,
+      "currency": "USD",
+      "base_amount_usd": -289.99,
+      "description": "Annual security software",
+      "reference_tag": "SOFT-22",
+      "reference_tags": [
+        "SOFT-22"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 6
+    },
+    {
+      "txn_id": "TXN-25046",
+      "account_id": "SAV-1002",
+      "account_type": "savings",
+      "amount": 1425.0,
+      "currency": "GBP",
+      "base_amount_usd": 1889.79,
+      "description": "Independent consulting payment",
+      "reference_tag": "CONS-04",
+      "reference_tags": [
+        "CONS-04"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 7
+    },
+    {
+      "txn_id": "TXN-25047",
+      "account_id": "SAV-1002",
+      "account_type": "savings",
+      "amount": -96.8,
+      "currency": "CAD",
+      "base_amount_usd": -68.21,
+      "description": "Travel and transit costs",
+      "reference_tag": "TRAVEL-15",
+      "reference_tags": [
+        "TRAVEL-15"
+      ],
+      "source_file": "data\\raw\\2025\\q4_txns.csv",
+      "source_line": 8
+    },
+    {
+      "txn_id": "TXN-26001",
+      "account_id": "SAV-1001",
+      "account_type": "savings",
+      "amount": 4250.0,
+      "currency": "USD",
+      "base_amount_usd": 4250.0,
+      "description": "Quarterly salary payment",
+      "reference_tag": "SAL-01",
+      "reference_tags": [
+        "SAL-01"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 2
+    },
+    {
+      "txn_id": "TXN-26002",
+      "account_id": "SAV-1001",
+      "account_type": "savings",
+      "amount": -86.45,
+      "currency": "USD",
+      "base_amount_usd": -86.45,
+      "description": "Weekly groceries",
+      "reference_tag": "GROC-12",
+      "reference_tags": [
+        "GROC-12"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 3
+    },
+    {
+      "txn_id": "TXN-26003",
+      "account_id": "SAV-1001",
+      "account_type": "savings",
+      "amount": -42.18,
+      "currency": "EUR",
+      "base_amount_usd": -47.31,
+      "description": "Cloud storage subscription",
+      "reference_tag": "INFRA-99",
+      "reference_tags": [
+        "INFRA-99"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 4
+    },
+    {
+      "txn_id": "TXN-26004",
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "amount": -1875.0,
+      "currency": "USD",
+      "base_amount_usd": -1875.0,
+      "description": "Cloud hosting invoice",
+      "reference_tag": "INFRA-99",
+      "reference_tags": [
+        "INFRA-99"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 5
+    },
+    {
+      "txn_id": "TXN-26005",
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "amount": 12500.0,
+      "currency": "USD",
+      "base_amount_usd": 12500.0,
+      "description": "Client milestone payment",
+      "reference_tag": "REV-03",
+      "reference_tags": [
+        "REV-03"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 6
+    },
+    {
+      "txn_id": "TXN-26006",
+      "account_id": "CORP-2001",
+      "account_type": "corporate",
+      "amount": -640.0,
+      "currency": "GBP",
+      "base_amount_usd": -848.75,
+      "description": "Developer tools and licenses",
+      "reference_tag": "SOFT-22",
+      "reference_tags": [
+        "SOFT-22"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 7
+    },
+    {
+      "txn_id": "TXN-26007",
+      "account_id": "SAV-1002",
+      "account_type": "savings",
+      "amount": 1850.0,
+      "currency": "CAD",
+      "base_amount_usd": 1303.6,
+      "description": "Quarterly consulting income",
+      "reference_tag": "CONS-04",
+      "reference_tags": [
+        "CONS-04"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 8
+    },
+    {
+      "txn_id": "TXN-26008",
+      "account_id": "SAV-1002",
+      "account_type": "savings",
+      "amount": -113.72,
+      "currency": "USD",
+      "base_amount_usd": -113.72,
+      "description": "Office and household supplies",
+      "reference_tag": "SUP-08",
+      "reference_tags": [
+        "SUP-08"
+      ],
+      "source_file": "data\\raw\\2026\\q1_txns.csv",
+      "source_line": 9
+    }
+  ]
+}

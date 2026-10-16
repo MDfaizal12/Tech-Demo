@@ -1,0 +1,8 @@
+txn_id,account_id,account_type,amount,currency,description
+TXN-25041,SAV-1001,savings,3980.00,USD,Quarterly salary payment #SAL-01
+TXN-25042,SAV-1001,savings,-74.30,USD,Weekly groceries #GROC-12
+TXN-25043,CORP-2001,corporate,9800.00,USD,Client project payment #REV-03
+TXN-25044,CORP-2001,corporate,-2350.00,EUR,Cloud infrastructure invoice #INFRA-99
+TXN-25045,CORP-2001,corporate,-289.99,USD,Annual security software #SOFT-22
+TXN-25046,SAV-1002,savings,1425.00,GBP,Independent consulting payment #CONS-04
+TXN-25047,SAV-1002,savings,-96.80,CAD,Travel and transit costs #TRAVEL-15

@@ -1,0 +1,9 @@
+txn_id,account_id,account_type,amount,currency,description
+TXN-26001,SAV-1001,savings,4250.00,USD,Quarterly salary payment #SAL-01
+TXN-26002,SAV-1001,savings,-86.45,USD,Weekly groceries #GROC-12
+TXN-26003,SAV-1001,savings,-42.18,EUR,Cloud storage subscription #INFRA-99
+TXN-26004,CORP-2001,corporate,-1875.00,USD,Cloud hosting invoice #INFRA-99
+TXN-26005,CORP-2001,corporate,12500.00,USD,Client milestone payment #REV-03
+TXN-26006,CORP-2001,corporate,-640.00,GBP,Developer tools and licenses #SOFT-22
+TXN-26007,SAV-1002,savings,1850.00,CAD,Quarterly consulting income #CONS-04
+TXN-26008,SAV-1002,savings,-113.72,USD,Office and household supplies #SUP-08
